@@ -13,6 +13,6 @@ function calculate () {
   let celsius = (5 / 9) * (fahrenheit - 32)
 
   // Outputs Celsius
-  document.getElementById('celsius').innerHTML = 'The temperature in Celsius is: ' + Math.round(celsius) + ' C°'
-  document.getElementById('celsius-decimals').innerHTML = "If you'd like a more specific number, the temperature in Celsius unrounded is: " + celsius + ' C°'
+  document.getElementById('celsius').innerHTML = 'The temperature in Celsius is: ' + Math.round(celsius) + '°C'
+  document.getElementById('celsius-decimals').innerHTML = "If you'd like a more specific number, the temperature in Celsius unrounded is: " + celsius + '°C'
 }
